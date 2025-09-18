@@ -80,11 +80,11 @@ def export_recommendations(csv_path,sheet_id,league_id,year,espn_s2,swid):
 if __name__ == "__main__":
     export_recommendations(
         csv_path = "weekly_projections.csv",
-        sheet_id= "1jzYYVtDsVKi5BZg9MZ8g8BXMHBLVPf_suqMcyORjdGM",
-        league_id = 340761201,
+        sheet_id= "#####",
+        league_id = ###,
         year = 2025,
-        espn_s2 = "AEA0BqbFiXqaG4xdI0XWmfxOfOk9iXwD7j%2FLpPSHYu4lhYoYaBgfFnnijEC9HUmc6IebipoHmjjx7YzcwibZ7b5awausjGYvb0aEpBRM18lNWrzlCSGwCjyItiQmHS5i7cChB0AuRYHnPUPO8l8mZOQ5GhcASjAljs6hCNPgqTLwqJwAaBmCtEb6R9YM4N0mMtUBl%2BjSYyp3pV%2Fs0sGYEroCp3eU8EyObqeRToIUWu4x71GPbUv%2Fm3I0i1XrobCA6MeaS%2BPzXVgcU%2BXhGBTahebRtKTgH3PL%2BMtRGV4X8eP3DA%3D%3D",
-        swid = "{629A0EE0-7DBF-428C-A92E-BEF70E289499}"
+        espn_s2 = "#####",
+        swid = "####"
     )
 
 
