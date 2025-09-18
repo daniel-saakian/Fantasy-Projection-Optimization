@@ -12,17 +12,17 @@ import time
 
 
 
-league_id = 340761201
+league_id = ####
 espn_year = 2025
-swid = "{629A0EE0-7DBF-428C-A92E-BEF70E289499}"
-espn_s2 = 'AEASLWMQkk8Gs8R5nrE2C6pjJjRAd8giVPB%2BhbmRYatVTf3r%2FDX%2B15Ex8zA8d15dbeJcwcd6gxkAu8kAPcYv2NlxuzoVL2QxaVGX8n8XCP6z3%2FoDK3GxBU%2FQGbLyx476eRnPMt9znEYWgtQEQwqOJvJL3gejRa%2BatDNNQw2ZwXKcnENEg46%2BJbBE9R8j1LSq5zOjAOhQMcEx6e5bJO4Q2kaWVQdKj1db368rIQulb0iW2xI0uUtlrL3sPMopGliO0BmqNenalFf7A%2FFNbdj1R3ZihIvfqk%2Fhh0jok1r5pqY0ew%3D%3D'
+swid = "###"
+espn_s2 = '#####'
 min_roster_pct = 35.0
 week = 3
 
 # Google Sheets implementation
 
 
-sheet_id = "1jzYYVtDsVKi5BZg9MZ8g8BXMHBLVPf_suqMcyORjdGM"
+sheet_id = "###"
 
 def export_to_gsheet(proj_df,sheet_id):
     scopes = ["https://www.googleapis.com/auth/spreadsheets"]
@@ -388,7 +388,7 @@ projections_df = run_projections(
     output_csv = "weekly_projections.csv"
 )
 
-export_to_gsheet(projections_df, sheet_id="1jzYYVtDsVKi5BZg9MZ8g8BXMHBLVPf_suqMcyORjdGM")
+export_to_gsheet(projections_df, sheet_id="#####")
 print(projections_df.head())
 
 
